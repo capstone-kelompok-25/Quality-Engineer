@@ -1,0 +1,3803 @@
+{
+	"id": "1ffaac78-fcfa-435b-9a68-211ad1b9c3dd",
+	"name": "CAPSTONE API PROJECT",
+	"timestamp": "2022-07-19T20:24:50.493Z",
+	"collection_id": "20169665-094899bc-0e9f-4716-925c-d42ee26f54f9",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 266,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "de65d774-725a-4e24-9401-cac80398e137",
+			"name": "Register With Existed Data",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer/register",
+			"time": 675,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				675
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches messages": true
+				}
+			]
+		},
+		{
+			"id": "e22e3d5d-8bab-49b3-b66f-11d0447e56df",
+			"name": "Register With Invalid data (email sudah digunakan)",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer/register",
+			"time": 360,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				360
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches messages": true
+				}
+			]
+		},
+		{
+			"id": "3c225fc1-9e76-4ab3-94bb-2d39a4ce9852",
+			"name": "Register With Empty Email",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer/register",
+			"time": 291,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "892beeb5-bc85-4177-ba40-a1abf77dc8e2",
+			"name": "Register With Empty Fullname",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer/register",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches messages": true
+				}
+			]
+		},
+		{
+			"id": "259c245a-5538-4c64-b556-5f87c98af3fe",
+			"name": "Register With Empty Password",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer/register",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches messages": true
+				}
+			]
+		},
+		{
+			"id": "8a5110f8-ab59-421d-a732-ce1f4f18652e",
+			"name": "Register With Empty Phone Number",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer/register",
+			"time": 285,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches messages": true
+				}
+			]
+		},
+		{
+			"id": "27ca9063-d45a-4987-9584-aae552faf5cb",
+			"name": "Register With Empty Pin",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer/register",
+			"time": 294,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				294
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches messages": true
+				}
+			]
+		},
+		{
+			"id": "9dea7478-0f5b-4b52-849c-d18a4e061bcb",
+			"name": "Login With Valid Data",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 362,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Body matches id": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				362
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Body matches id": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "a2cba5d8-07c2-447a-8317-eb8d6f3953e7",
+			"name": "Login With Non-Existed Data",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 289,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "ae56bab4-3763-4d26-82fa-ae77c08bafb7",
+			"name": "Login With Empty Email",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 285,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "c8f13f5a-2e97-4921-95e3-7e42e1d05822",
+			"name": "Login With Empty Password",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "8167eb36-8efc-405d-952f-5f356df950d0",
+			"name": "Login With Invalid Email",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "f00c4d2f-7291-429c-9ea6-9a1617d089ef",
+			"name": "Login With Invalid Password",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 378,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				378
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "ff867b51-4897-49a1-a1b1-981e2290bcfe",
+			"name": "Login With Invalid Method",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 281,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Status code is 405": true,
+				"Status code name has Error": true,
+				"Body matches messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 405": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 405": true,
+					"Status code name has Error": true,
+					"Body matches messages": true
+				}
+			]
+		},
+		{
+			"id": "55a1f775-7644-434c-b828-4f9427d6d79a",
+			"name": "redeem emoney",
+			"url": "http://api-poins-id.herokuapp.com/v1/emoney",
+			"time": 3339,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3339
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "84a59250-cecd-44e0-acb7-ad19179dbfbb",
+			"name": "redeem emoney with empty customer id",
+			"url": "http://api-poins-id.herokuapp.com/v1/emoney",
+			"time": 291,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "063b5785-53db-4bb3-9a10-4fc7f2cc5c2c",
+			"name": "redeem emoney with empty bank provider",
+			"url": "http://api-poins-id.herokuapp.com/v1/emoney",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "a74bb11e-50d3-4d37-a6a4-298cd8c98959",
+			"name": "redeem emoney with empty phone number",
+			"url": "http://api-poins-id.herokuapp.com/v1/emoney",
+			"time": 284,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "071e3185-cc3d-458e-bff0-edc8cb2ffce6",
+			"name": "redeem emoney with empty nama rekening",
+			"url": "http://api-poins-id.herokuapp.com/v1/emoney",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "6696d542-3214-4633-9748-747b49a62e24",
+			"name": "redeem point with empty amount",
+			"url": "http://api-poins-id.herokuapp.com/v1/emoney",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "816a7643-f802-482b-aa34-752beba800eb",
+			"name": "redeem point with empty poin redeem ",
+			"url": "http://api-poins-id.herokuapp.com/v1/emoney",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "a8aed36e-363f-48ce-a2e4-a5b570531b27",
+			"name": "redeem point with non bearer token",
+			"url": "http://api-poins-id.herokuapp.com/v1/emoney",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "85f80bcc-ecf0-4df4-b653-4a13de5f2e5b",
+			"name": "redeem cashout",
+			"url": "http://api-poins-id.herokuapp.com/v1/cashout",
+			"time": 2857,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2857
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "6c555fd7-06db-42a0-83b9-ead588089084",
+			"name": "redeem point with empty customer id",
+			"url": "http://api-poins-id.herokuapp.com/v1/cashout",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "5023d64f-743a-43c4-ae1f-64c4d8d8bf93",
+			"name": "redeem point with empty bank provider",
+			"url": "http://api-poins-id.herokuapp.com/v1/cashout",
+			"time": 285,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "d5c06555-fed7-41fd-b46a-6405d8e7f946",
+			"name": "redeem point with empty phone number",
+			"url": "http://api-poins-id.herokuapp.com/v1/cashout",
+			"time": 293,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				293
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "ed87d1b9-eb12-4115-b709-b342e412d83a",
+			"name": "redeem point with empty rekening name",
+			"url": "http://api-poins-id.herokuapp.com/v1/cashout",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "135e942d-6c40-4ff2-a3e7-764804ec396e",
+			"name": "redeem point with empty amount",
+			"url": "http://api-poins-id.herokuapp.com/v1/cashout",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "2b0b170c-cf5c-46d3-bb5f-2ceccc02ed2a",
+			"name": "redeem point with empty point redeem ",
+			"url": "http://api-poins-id.herokuapp.com/v1/cashout",
+			"time": 289,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "74a7f23e-1b24-496f-b61f-f16fa892a016",
+			"name": "redeem point with non barear token",
+			"url": "http://api-poins-id.herokuapp.com/v1/cashout",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "19593366-c1eb-47d3-8e07-49638ba90414",
+			"name": "redeem paket data",
+			"url": "http://api-poins-id.herokuapp.com/v1/paketdata",
+			"time": 303,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				303
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "03da1af9-7208-4d92-946b-199181b9adfd",
+			"name": "redeem point with empty customer id",
+			"url": "http://api-poins-id.herokuapp.com/v1/paketdata",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "15efe3ac-a625-44f0-8b34-b0fa6eb3af8f",
+			"name": "redeem point with empty bank provider",
+			"url": "http://api-poins-id.herokuapp.com/v1/paketdata",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "394db6f4-fdff-45c0-bd8e-07b7880dbaef",
+			"name": "redeem point with empty phone number",
+			"url": "http://api-poins-id.herokuapp.com/v1/paketdata",
+			"time": 285,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "fc231f99-6c44-4859-bfba-7ae4e55e1940",
+			"name": "redeem point with empty amount",
+			"url": "http://api-poins-id.herokuapp.com/v1/paketdata",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "c4d1f5a0-8e2e-4038-8c7a-69c65737d407",
+			"name": "redeem point with empty poin redeem ",
+			"url": "http://api-poins-id.herokuapp.com/v1/paketdata",
+			"time": 284,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "bed88004-f8d7-414d-a468-55589c273616",
+			"name": "redeem point with non bearer token",
+			"url": "http://api-poins-id.herokuapp.com/v1/paketdata",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "59e3b90e-e027-46b0-87fc-b05fd599fb50",
+			"name": "redeem pulsa",
+			"url": "http://api-poins-id.herokuapp.com/v1/pulsa",
+			"time": 310,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				310
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "01be8f9d-f553-492d-b7a5-7b4e9305deda",
+			"name": "redeem point with empty customer id",
+			"url": "http://api-poins-id.herokuapp.com/v1/pulsa",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "8dd92e9e-6ce7-41cb-b475-a082bd631b93",
+			"name": "redeem point with empty bank provider",
+			"url": "http://api-poins-id.herokuapp.com/v1/pulsa",
+			"time": 284,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "dee88a76-0756-489a-9f31-9a007b3e31e0",
+			"name": "redeem point with empty phone number",
+			"url": "http://api-poins-id.herokuapp.com/v1/pulsa",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "bc6a6b0d-ce8b-4cef-9bdb-57ba2072dbdf",
+			"name": "redeem point with empty amount",
+			"url": "http://api-poins-id.herokuapp.com/v1/pulsa",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "9610ae7d-5236-434b-9cb3-eda7913f0212",
+			"name": "redeem point with empty poin redeem ",
+			"url": "http://api-poins-id.herokuapp.com/v1/pulsa",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "eca4a140-c322-4536-9714-fbcc57ec5a5b",
+			"name": "redeem point with non bearer token",
+			"url": "http://api-poins-id.herokuapp.com/v1/pulsa",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "4e997416-c708-45e0-b671-2303013d265e",
+			"name": "Update Valid Data User",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 285,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "014b7db6-cad4-4e1d-a583-0afafc44551f",
+			"name": "Update Data With Empty ID Customer",
+			"url": "http://api-poins-id.herokuapp.com/v1/customer",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "59c006d6-3be2-4332-8952-cb1ce12dc2fb",
+			"name": "History With Id User",
+			"url": "http://api-poins-id.herokuapp.com/v1/history?id=1&limit=5&page=1&sort=created_at%20desc",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "b58fda03-ea0f-4950-b107-e6ee1c46f1b0",
+			"name": "History User With Invalid ID",
+			"url": "http://api-poins-id.herokuapp.com/v1/history?id=546&limit=5&page=1&sort=created_at%20desc",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "5c8c2c45-0cec-4546-9b38-92a39c262ffe",
+			"name": "history with id user no token",
+			"url": "http://api-poins-id.herokuapp.com/v1/history?id=1&limit=5&page=1&sort=created_at%20desc",
+			"time": 281,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "c279439c-b521-4022-bcec-f62b4ecd8a31",
+			"name": "History With Id Transaksi",
+			"url": "http://api-poins-id.herokuapp.com/v1/dethistory/EM91760388",
+			"time": 286,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				286
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "ba2b35c5-9420-4eb6-a875-a56ed4072dc6",
+			"name": "History With Invalid ID Transaction",
+			"url": "http://api-poins-id.herokuapp.com/v1/dethistory/123456",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "096e4912-4486-4a0e-ad70-2543f9984759",
+			"name": "History User with id transaction no token",
+			"url": "http://api-poins-id.herokuapp.com/v1/dethistory/EM91760388",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "00509d08-7140-441a-ac10-dc93f90bb501",
+			"name": "Login Admin With Valid Data",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/login",
+			"time": 355,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Body matches fullname": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches fullname": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				355
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Body matches fullname": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "01ba55b7-fa3f-4973-90d2-c5068eef6ccf",
+			"name": "Login Admin With Non-Existed Account",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/login",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Error Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Error Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Error Messages": true
+				}
+			]
+		},
+		{
+			"id": "f5e1bd2d-a29c-4177-8933-f08255a50b47",
+			"name": "Login WIth Empty Email",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/login",
+			"time": 292,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Error Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Error Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				292
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Error Messages": true
+				}
+			]
+		},
+		{
+			"id": "286e7d07-5f09-4255-a5bb-505749d1af97",
+			"name": "Login Admin With Empty Password",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/login",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Error Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Error Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Error Messages": true
+				}
+			]
+		},
+		{
+			"id": "a007f61c-4b9a-4907-9414-2785bb3f9e3e",
+			"name": "Login Admin With Invalid Email",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/login",
+			"time": 285,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Error Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Error Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Error Messages": true
+				}
+			]
+		},
+		{
+			"id": "1c016932-7832-4719-b8d5-f58ea2505a76",
+			"name": "Login Admin With Invalid Password",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/login",
+			"time": 354,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Error Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Error Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				354
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Error Messages": true
+				}
+			]
+		},
+		{
+			"id": "cceeee77-1e57-4222-b741-7ea2b2e7ae2d",
+			"name": "Dashboard Admin WIth Invalid Url",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin1234",
+			"time": 281,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "8f559359-5b2b-4d86-8940-ebcc80bfdb46",
+			"name": "Dashboard Admin",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin",
+			"time": 288,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				288
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "297b2735-03c3-4164-95e0-5ced26fd178e",
+			"name": "History Customer",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/history?limit=2&page=1&sort=created_at%20desc",
+			"time": 288,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				288
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "3d002160-7cac-43d1-9fc9-c21407b40771",
+			"name": "History Transaction Customer With Invalid Url",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/history?limit=2&page=1&sort=created_at%20desc12345",
+			"time": 296,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				296
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "5a535dbe-9801-4d09-9c9d-ed64593ded71",
+			"name": "Manage Data Customer",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/customer",
+			"time": 283,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "f7e8ae20-d161-41e7-80c7-2f383a61b163",
+			"name": "Update Data Customer",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/customer",
+			"time": 290,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				290
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "e56b2807-6acb-439a-9e8c-bfd5f476fac1",
+			"name": "Manage Data Customer With Invalid Url",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin1/customer",
+			"time": 281,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "d44a251d-45f9-45c4-acea-3f57bdf2879e",
+			"name": "Delete Customer With Non-Existed Data",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/customer?id=450",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "7939f54f-9a03-4a5a-963d-95717e7d8ba7",
+			"name": "Update Point Customer With Invalid ID",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/customer/point?id=712&point=25000",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "7cf70e99-19db-4fb5-810f-70b48d762627",
+			"name": "Update Customer Point",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/customer/point?id=5&point=85000",
+			"time": 293,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				293
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "8c2eed1c-f877-41df-9a1e-9ea7872a63c2",
+			"name": "Approve Transaction With Invalid ID",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/approve/1",
+			"time": 285,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Error Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Error Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Error Messages": true
+				}
+			]
+		},
+		{
+			"id": "38e9dad5-403b-4f92-9ed3-ea05a6372372",
+			"name": "Stock Product",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/stock",
+			"time": 282,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "629eebd7-7fe8-4dd8-94c8-0f2770044f22",
+			"name": "Stock Produck With Invalid Url",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin1/stock",
+			"time": 281,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "73198a28-e729-46c6-b8ae-2e9cafb3babc",
+			"name": "Update Stock",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/stock?id=1&balance=1",
+			"time": 286,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				286
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "d7044d3e-16d0-4535-adee-16c3540bdabc",
+			"name": "Update stock with invalid id",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/stock?id=100&balance=1000",
+			"time": 284,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				284
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "42862e62-0fd1-4b41-a008-f21fb1f75dd5",
+			"name": "register with empty email",
+			"url": "http://api-poins-id.herokuapp.com/v1/store",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "cbf9945f-5870-4d02-9968-745038fd817e",
+			"name": "register with empty password",
+			"url": "http://api-poins-id.herokuapp.com/v1/store",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "2ba2599f-e5ba-43a4-afce-34884643e49d",
+			"name": "register with empty name store",
+			"url": "http://api-poins-id.herokuapp.com/v1/store",
+			"time": 308,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				308
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "bd0507c3-d9d7-4b92-8597-f613e49e3895",
+			"name": "register with empty alamat",
+			"url": "http://api-poins-id.herokuapp.com/v1/store",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "f47b8465-c30c-4bee-aac9-a9e88b858c3f",
+			"name": "Delete store with non existed data",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/store?id=120",
+			"time": 286,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				286
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "bc52f7af-56c6-4113-8c07-d0b8d2973356",
+			"name": "Data Store",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/store?limit=5&page=1&0sort=created_at%20desc&name=store12",
+			"time": 283,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				283
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ddebca6f-6317-4552-9d13-b85c16f39a35",
+			"name": "history store",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/historystore?limit=1&page=1&sort=created_at%20desc",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				297
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "1ad03520-88a2-4bf9-b947-11d65a12f7e5",
+			"name": "history store with invalid url",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/historystore?limit=1&page=1&sort=created_at%20desc1234",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "7eb499c3-5b1b-4f1f-9f6d-cda27f152ca2",
+			"name": "transaction pending",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/transaction/pending?limit=1&page=1&sort=created_at%20desc",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true,
+				"Successful GET request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true,
+					"Successful GET request": true
+				}
+			]
+		},
+		{
+			"id": "75fd9862-bdeb-468c-989f-76ece163b663",
+			"name": "Transaction with invalid url",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin1/transaction/pending?limit=1&page=1&sort=created_at%20desc",
+			"time": 294,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				294
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "cb9bd30c-d334-482b-943f-b09a99fe1075",
+			"name": "Update Store with Valid id",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/store",
+			"time": 368,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				368
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "de74b6e6-c7e7-4554-b171-9ebad8b7e135",
+			"name": "Update store with invalid id",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/store",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name has Error": true,
+				"Body matches Messages": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches Messages": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				283
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name has Error": true,
+					"Body matches Messages": true
+				}
+			]
+		},
+		{
+			"id": "6561785c-e3d6-4945-824d-1a24b05501af",
+			"name": "Get admin by id valid",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/1",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				284
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7b056862-6acf-450b-b4d4-a81ac38faae0",
+			"name": "Get admin by id invalid",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/0",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				283
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f4a64ebd-560b-429c-bba1-f999bd263612",
+			"name": "Get admin by id null",
+			"url": "http://api-poins-id.herokuapp.com/v1/admin/null",
+			"time": 283,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				283
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 31585,
+	"collection": {
+		"requests": [
+			{
+				"id": "de65d774-725a-4e24-9401-cac80398e137",
+				"method": "POST"
+			},
+			{
+				"id": "e22e3d5d-8bab-49b3-b66f-11d0447e56df",
+				"method": "POST"
+			},
+			{
+				"id": "3c225fc1-9e76-4ab3-94bb-2d39a4ce9852",
+				"method": "POST"
+			},
+			{
+				"id": "892beeb5-bc85-4177-ba40-a1abf77dc8e2",
+				"method": "POST"
+			},
+			{
+				"id": "259c245a-5538-4c64-b556-5f87c98af3fe",
+				"method": "POST"
+			},
+			{
+				"id": "8a5110f8-ab59-421d-a732-ce1f4f18652e",
+				"method": "POST"
+			},
+			{
+				"id": "27ca9063-d45a-4987-9584-aae552faf5cb",
+				"method": "POST"
+			},
+			{
+				"id": "9dea7478-0f5b-4b52-849c-d18a4e061bcb",
+				"method": "POST"
+			},
+			{
+				"id": "a2cba5d8-07c2-447a-8317-eb8d6f3953e7",
+				"method": "POST"
+			},
+			{
+				"id": "ae56bab4-3763-4d26-82fa-ae77c08bafb7",
+				"method": "POST"
+			},
+			{
+				"id": "c8f13f5a-2e97-4921-95e3-7e42e1d05822",
+				"method": "POST"
+			},
+			{
+				"id": "8167eb36-8efc-405d-952f-5f356df950d0",
+				"method": "POST"
+			},
+			{
+				"id": "f00c4d2f-7291-429c-9ea6-9a1617d089ef",
+				"method": "POST"
+			},
+			{
+				"id": "ff867b51-4897-49a1-a1b1-981e2290bcfe",
+				"method": "GET"
+			},
+			{
+				"id": "55a1f775-7644-434c-b828-4f9427d6d79a",
+				"method": "POST"
+			},
+			{
+				"id": "84a59250-cecd-44e0-acb7-ad19179dbfbb",
+				"method": "POST"
+			},
+			{
+				"id": "063b5785-53db-4bb3-9a10-4fc7f2cc5c2c",
+				"method": "POST"
+			},
+			{
+				"id": "a74bb11e-50d3-4d37-a6a4-298cd8c98959",
+				"method": "POST"
+			},
+			{
+				"id": "071e3185-cc3d-458e-bff0-edc8cb2ffce6",
+				"method": "POST"
+			},
+			{
+				"id": "6696d542-3214-4633-9748-747b49a62e24",
+				"method": "POST"
+			},
+			{
+				"id": "816a7643-f802-482b-aa34-752beba800eb",
+				"method": "POST"
+			},
+			{
+				"id": "a8aed36e-363f-48ce-a2e4-a5b570531b27",
+				"method": "POST"
+			},
+			{
+				"id": "85f80bcc-ecf0-4df4-b653-4a13de5f2e5b",
+				"method": "POST"
+			},
+			{
+				"id": "6c555fd7-06db-42a0-83b9-ead588089084",
+				"method": "POST"
+			},
+			{
+				"id": "5023d64f-743a-43c4-ae1f-64c4d8d8bf93",
+				"method": "POST"
+			},
+			{
+				"id": "d5c06555-fed7-41fd-b46a-6405d8e7f946",
+				"method": "POST"
+			},
+			{
+				"id": "ed87d1b9-eb12-4115-b709-b342e412d83a",
+				"method": "POST"
+			},
+			{
+				"id": "135e942d-6c40-4ff2-a3e7-764804ec396e",
+				"method": "POST"
+			},
+			{
+				"id": "2b0b170c-cf5c-46d3-bb5f-2ceccc02ed2a",
+				"method": "POST"
+			},
+			{
+				"id": "74a7f23e-1b24-496f-b61f-f16fa892a016",
+				"method": "POST"
+			},
+			{
+				"id": "19593366-c1eb-47d3-8e07-49638ba90414",
+				"method": "POST"
+			},
+			{
+				"id": "03da1af9-7208-4d92-946b-199181b9adfd",
+				"method": "POST"
+			},
+			{
+				"id": "15efe3ac-a625-44f0-8b34-b0fa6eb3af8f",
+				"method": "POST"
+			},
+			{
+				"id": "394db6f4-fdff-45c0-bd8e-07b7880dbaef",
+				"method": "POST"
+			},
+			{
+				"id": "fc231f99-6c44-4859-bfba-7ae4e55e1940",
+				"method": "POST"
+			},
+			{
+				"id": "c4d1f5a0-8e2e-4038-8c7a-69c65737d407",
+				"method": "POST"
+			},
+			{
+				"id": "bed88004-f8d7-414d-a468-55589c273616",
+				"method": "POST"
+			},
+			{
+				"id": "59e3b90e-e027-46b0-87fc-b05fd599fb50",
+				"method": "POST"
+			},
+			{
+				"id": "01be8f9d-f553-492d-b7a5-7b4e9305deda",
+				"method": "POST"
+			},
+			{
+				"id": "8dd92e9e-6ce7-41cb-b475-a082bd631b93",
+				"method": "POST"
+			},
+			{
+				"id": "dee88a76-0756-489a-9f31-9a007b3e31e0",
+				"method": "POST"
+			},
+			{
+				"id": "bc6a6b0d-ce8b-4cef-9bdb-57ba2072dbdf",
+				"method": "POST"
+			},
+			{
+				"id": "9610ae7d-5236-434b-9cb3-eda7913f0212",
+				"method": "POST"
+			},
+			{
+				"id": "eca4a140-c322-4536-9714-fbcc57ec5a5b",
+				"method": "POST"
+			},
+			{
+				"id": "4e997416-c708-45e0-b671-2303013d265e",
+				"method": "PUT"
+			},
+			{
+				"id": "014b7db6-cad4-4e1d-a583-0afafc44551f",
+				"method": "PUT"
+			},
+			{
+				"id": "59c006d6-3be2-4332-8952-cb1ce12dc2fb",
+				"method": "GET"
+			},
+			{
+				"id": "b58fda03-ea0f-4950-b107-e6ee1c46f1b0",
+				"method": "GET"
+			},
+			{
+				"id": "5c8c2c45-0cec-4546-9b38-92a39c262ffe",
+				"method": "GET"
+			},
+			{
+				"id": "c279439c-b521-4022-bcec-f62b4ecd8a31",
+				"method": "GET"
+			},
+			{
+				"id": "ba2b35c5-9420-4eb6-a875-a56ed4072dc6",
+				"method": "GET"
+			},
+			{
+				"id": "096e4912-4486-4a0e-ad70-2543f9984759",
+				"method": "GET"
+			},
+			{
+				"id": "00509d08-7140-441a-ac10-dc93f90bb501",
+				"method": "POST"
+			},
+			{
+				"id": "01ba55b7-fa3f-4973-90d2-c5068eef6ccf",
+				"method": "POST"
+			},
+			{
+				"id": "f5e1bd2d-a29c-4177-8933-f08255a50b47",
+				"method": "POST"
+			},
+			{
+				"id": "286e7d07-5f09-4255-a5bb-505749d1af97",
+				"method": "POST"
+			},
+			{
+				"id": "a007f61c-4b9a-4907-9414-2785bb3f9e3e",
+				"method": "POST"
+			},
+			{
+				"id": "1c016932-7832-4719-b8d5-f58ea2505a76",
+				"method": "POST"
+			},
+			{
+				"id": "cceeee77-1e57-4222-b741-7ea2b2e7ae2d",
+				"method": "GET"
+			},
+			{
+				"id": "8f559359-5b2b-4d86-8940-ebcc80bfdb46",
+				"method": "GET"
+			},
+			{
+				"id": "297b2735-03c3-4164-95e0-5ced26fd178e",
+				"method": "GET"
+			},
+			{
+				"id": "3d002160-7cac-43d1-9fc9-c21407b40771",
+				"method": "GET"
+			},
+			{
+				"id": "5a535dbe-9801-4d09-9c9d-ed64593ded71",
+				"method": "GET"
+			},
+			{
+				"id": "f7e8ae20-d161-41e7-80c7-2f383a61b163",
+				"method": "PUT"
+			},
+			{
+				"id": "e56b2807-6acb-439a-9e8c-bfd5f476fac1",
+				"method": "GET"
+			},
+			{
+				"id": "d44a251d-45f9-45c4-acea-3f57bdf2879e",
+				"method": "DELETE"
+			},
+			{
+				"id": "7939f54f-9a03-4a5a-963d-95717e7d8ba7",
+				"method": "PUT"
+			},
+			{
+				"id": "7cf70e99-19db-4fb5-810f-70b48d762627",
+				"method": "PUT"
+			},
+			{
+				"id": "8c2eed1c-f877-41df-9a1e-9ea7872a63c2",
+				"method": "POST"
+			},
+			{
+				"id": "38e9dad5-403b-4f92-9ed3-ea05a6372372",
+				"method": "GET"
+			},
+			{
+				"id": "629eebd7-7fe8-4dd8-94c8-0f2770044f22",
+				"method": "GET"
+			},
+			{
+				"id": "73198a28-e729-46c6-b8ae-2e9cafb3babc",
+				"method": "PUT"
+			},
+			{
+				"id": "d7044d3e-16d0-4535-adee-16c3540bdabc",
+				"method": "PUT"
+			},
+			{
+				"id": "42862e62-0fd1-4b41-a008-f21fb1f75dd5",
+				"method": "POST"
+			},
+			{
+				"id": "cbf9945f-5870-4d02-9968-745038fd817e",
+				"method": "POST"
+			},
+			{
+				"id": "2ba2599f-e5ba-43a4-afce-34884643e49d",
+				"method": "POST"
+			},
+			{
+				"id": "bd0507c3-d9d7-4b92-8597-f613e49e3895",
+				"method": "POST"
+			},
+			{
+				"id": "f47b8465-c30c-4bee-aac9-a9e88b858c3f",
+				"method": "DELETE"
+			},
+			{
+				"id": "bc52f7af-56c6-4113-8c07-d0b8d2973356",
+				"method": "GET"
+			},
+			{
+				"id": "ddebca6f-6317-4552-9d13-b85c16f39a35",
+				"method": "GET"
+			},
+			{
+				"id": "1ad03520-88a2-4bf9-b947-11d65a12f7e5",
+				"method": "GET"
+			},
+			{
+				"id": "7eb499c3-5b1b-4f1f-9f6d-cda27f152ca2",
+				"method": "GET"
+			},
+			{
+				"id": "75fd9862-bdeb-468c-989f-76ece163b663",
+				"method": "GET"
+			},
+			{
+				"id": "cb9bd30c-d334-482b-943f-b09a99fe1075",
+				"method": "PUT"
+			},
+			{
+				"id": "de74b6e6-c7e7-4554-b171-9ebad8b7e135",
+				"method": "PUT"
+			},
+			{
+				"id": "6561785c-e3d6-4945-824d-1a24b05501af",
+				"method": "GET"
+			},
+			{
+				"id": "7b056862-6acf-450b-b4d4-a81ac38faae0",
+				"method": "GET"
+			},
+			{
+				"id": "f4a64ebd-560b-429c-bba1-f999bd263612",
+				"method": "GET"
+			},
+			{
+				"id": "d0c320af-8753-47b9-b03a-5363f7a7d10d",
+				"method": "POST"
+			}
+		]
+	}
+}
